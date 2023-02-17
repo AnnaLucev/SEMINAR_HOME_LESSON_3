@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\!_РАЗРАБОТЧИК\\3_Знакомство с языками программирования\\урок 2 функции и массивы\\SEMINAR_HOME_LESSON_2\\SEMINAR\\exercise_2_seminar\\exercise_2_seminar.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\!_РАЗРАБОТЧИК\\3_Знакомство с языками программирования\\урок 3 функции\\SEMINAR_HOME_LESSON_3\\SEMINAR\\exercise_2_seminar\\exercise_2_seminar.csproj",
       "projectName": "exercise_2_seminar",
-      "projectPath": "C:\\Users\\user\\Documents\\!_РАЗРАБОТЧИК\\3_Знакомство с языками программирования\\урок 2 функции и массивы\\SEMINAR_HOME_LESSON_2\\SEMINAR\\exercise_2_seminar\\exercise_2_seminar.csproj",
+      "projectPath": "C:\\Users\\user\\Documents\\!_РАЗРАБОТЧИК\\3_Знакомство с языками программирования\\урок 3 функции\\SEMINAR_HOME_LESSON_3\\SEMINAR\\exercise_2_seminar\\exercise_2_seminar.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\!_РАЗРАБОТЧИК\\3_Знакомство с языками программирования\\урок 2 функции и массивы\\SEMINAR_HOME_LESSON_2\\SEMINAR\\exercise_2_seminar\\obj\\",
+      "outputPath": "C:\\Users\\user\\Documents\\!_РАЗРАБОТЧИК\\3_Знакомство с языками программирования\\урок 3 функции\\SEMINAR_HOME_LESSON_3\\SEMINAR\\exercise_2_seminar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

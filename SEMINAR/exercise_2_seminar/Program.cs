@@ -1,12 +1,36 @@
-﻿// Напишите программу, которая выводит случайное трехзначное число 
-// и удаляет вторую цифру этого числа
+﻿// Напишите программу, которая по заданному номеру четверти, показывает диапазон возможных координат точек 
+// в этой четверти (x и y).
 
-int num  = new Random().Next(100,1000); // [100; 1000)
-Console.WriteLine("Случайное трехзначное число  -  " + num); 
 
-// int a = num / 100;
-// int b = num % 10;
-// Console.WriteLine("Итоговое двузначное число  - " + a + b);
+Exercise_2_seminar_3();
 
-char[] arr = num.ToString().ToCharArray(); 
-Console.Write($"First {arr[0]}, Third {arr[2]}");
+static void Exercise_2_seminar_3()
+{
+    int number = Output_of_result("Введите номер четверти (1, 2, 3, 4)");
+    switch (number)
+        {
+            case 1:
+            System.Console.WriteLine("Координаты x > 0 и y > 0");
+            break;
+            case 2:
+            System.Console.WriteLine("Координаты x < 0 и y > 0");
+            break;
+            case 3:
+            System.Console.WriteLine("Координаты x < 0 и y < 0");
+            break;
+            case 4:
+            System.Console.WriteLine("Координаты x > 0 и y < 0");
+            break;
+            default:
+            System.Console.WriteLine("Такой четверти нет. Скорректируйте ввод данных");
+            break;
+        }
+
+}
+
+static int  Output_of_result(string message)
+{ 
+    Console.WriteLine(message);
+    int result = Convert.ToInt32(Console.ReadLine());
+    return result;
+}

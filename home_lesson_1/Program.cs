@@ -1,12 +1,30 @@
-﻿// Напишите программу, которая принимает на вход трехзначное число и на выходе показывает вторую цифру этого числа
+﻿// Напишите программу, которая принимает на вход пятизначное число и проверяет,
+// является ли оно палиндромом
+// 14212 -- нет
+// 23432 -- да
+// 12821 -- да
 
-// 456 -- 5
-// 782 -- 8
-// 918 -- 1
+Home_lesson_1_3();
 
-Console.Write("Input three-digit number  ");
-int a = Convert.ToInt32(Console.ReadLine());
-char[] arr = a.ToString().ToCharArray(); 
-if (a > 99 && a < 1000)
-{ Console.WriteLine("Second figure inputing number is  -  " + arr[1]);}
-else {Console.WriteLine("Inputed non-three-digit number. Correct the input");}
+static void Home_lesson_1_3()
+{
+    int number5 = Output_of_result("Введите пятизначное число больше 0");
+    char[] arr5 = number5.ToString().ToCharArray(); 
+  
+    if (number5 < 0 || arr5.Length != 5)
+        Console.WriteLine("Ввод некорректен / Incorrect input");
+    else
+    {
+        if ((arr5[0] == arr5[4]) && (arr5[1] == arr5[3]))
+            Console.WriteLine($"Введенное число - {number5} - ПАЛИНДРОМ!");
+        else
+            Console.WriteLine($"Введенное число - {number5} -  не является палиндромом");
+    }
+}
+
+static int  Output_of_result(string message)
+{ 
+    Console.WriteLine(message);
+    int result = Convert.ToInt32(Console.ReadLine());
+    return result;
+}

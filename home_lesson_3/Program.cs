@@ -1,13 +1,26 @@
-﻿// Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, 
-// является ли этот день выходным.
+﻿// Напишите программу, которая принимает на вход число (N) и выдает таблицу кубов чисел от 1 до N.
+// 3 -- 1,8,27
+// 5 -- 1,8,27,64,125
 
-// 6 -- да
-// 7 -- да
-// 1 -- нет
+static int  Output_of_result(string message)
+{ 
+    Console.WriteLine(message);
+    int result = Convert.ToInt32(Console.ReadLine());
+    return result;
+}
 
-Console.Write("Input the number of the day of the week  -- ");
-int a = Convert.ToInt32(Console.ReadLine());
+Home_lesson_3_3();
 
-if (a == 6 || a == 7)
-{Console.WriteLine("This is weekend!"); }
-else {Console.WriteLine("This is not weekend! Go to work!");}
+static void Home_lesson_3_3()
+{
+    int number = Output_of_result("Введите число больше 0");
+    if (number > 0)
+    {
+        for (int i = 1; i <= number; i++)
+        {
+            System.Console.Write($"{Math.Pow(i, 3)}\t");
+        }
+    }
+    else 
+        System.Console.WriteLine("Ввод некорректен. Скорректируйте ввод данных");
+}

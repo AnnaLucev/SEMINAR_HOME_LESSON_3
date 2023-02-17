@@ -1,13 +1,25 @@
-﻿// Напишите программу, которая будет принимать на вход два числа и выводить, является ли первое число 
-// кратным второму. Если число 1 не кратно числу 2, то программа выводит остаток от деления.
+﻿// Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
+// A (3,6); B (2,1)   -> 5,09 
+// A (7,-5); B (1,-1)   -> 7,21
 
-// 34, 5 -> не кратно, остаток 4  
-// 16, 4 -> кратно 
 
-Console.Write("Введите первое число  ");
-int a = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите второе число  ");
-int b = Convert.ToInt32(Console.ReadLine());
+// СПОСОБ 1
+// System.Console.Write("Введите 4 числа - координаты точек A(x1, y1) и B(x2, y2)");
+// int[] number = new int[4];
+//
+// for (int i = 0; i < number.Length; i++)
+// {
+//    number[i] = Convert.ToInt32(Console.ReadLine());
+// }
+// double distance = Math.Sqrt(Math.Pow((number[2]-number[0]), 2) + Math.Pow((number[3]-number[1]), 2));
+// Console.WriteLine(distance);
 
-if (a%b==0) {   Console.WriteLine("Число 1 кратно 2"); } 
-else  { Console.WriteLine("Число 1 не кратно 2,  остаток =  {0}", (a%b));}
+// СПОСОБ 2
+Console.WriteLine("Введите координаты точки А"); 
+double Ax = Convert.ToInt32(Console.ReadLine()); 
+double Ay = Convert.ToInt32(Console.ReadLine());  
+Console.WriteLine("Введите координаты точки В"); 
+double Bx = Convert.ToInt32(Console.ReadLine()); 
+double By = Convert.ToInt32(Console.ReadLine());  
+double result = Math.Sqrt(Math.Pow(Bx-Ax, 2) + Math.Pow(By-Ay, 2)); 
+Console.WriteLine($"Координаты A: {Ax}, {Ay}, координаты В: {Bx}, {By}, расстояние между точками: " + result);
