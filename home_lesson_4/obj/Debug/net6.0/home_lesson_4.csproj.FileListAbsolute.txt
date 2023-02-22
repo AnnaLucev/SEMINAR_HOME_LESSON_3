@@ -1,0 +1,15 @@
+C:\Users\user\Documents\!_РАЗРАБОТЧИК\3_Знакомство с языками программирования\урок 3 функции\SEMINAR_HOME_LESSON_3\home_lesson_4\bin\Debug\net6.0\home_lesson_4.exe
+C:\Users\user\Documents\!_РАЗРАБОТЧИК\3_Знакомство с языками программирования\урок 3 функции\SEMINAR_HOME_LESSON_3\home_lesson_4\bin\Debug\net6.0\home_lesson_4.deps.json
+C:\Users\user\Documents\!_РАЗРАБОТЧИК\3_Знакомство с языками программирования\урок 3 функции\SEMINAR_HOME_LESSON_3\home_lesson_4\bin\Debug\net6.0\home_lesson_4.runtimeconfig.json
+C:\Users\user\Documents\!_РАЗРАБОТЧИК\3_Знакомство с языками программирования\урок 3 функции\SEMINAR_HOME_LESSON_3\home_lesson_4\bin\Debug\net6.0\home_lesson_4.dll
+C:\Users\user\Documents\!_РАЗРАБОТЧИК\3_Знакомство с языками программирования\урок 3 функции\SEMINAR_HOME_LESSON_3\home_lesson_4\bin\Debug\net6.0\home_lesson_4.pdb
+C:\Users\user\Documents\!_РАЗРАБОТЧИК\3_Знакомство с языками программирования\урок 3 функции\SEMINAR_HOME_LESSON_3\home_lesson_4\obj\Debug\net6.0\home_lesson_4.csproj.AssemblyReference.cache
+C:\Users\user\Documents\!_РАЗРАБОТЧИК\3_Знакомство с языками программирования\урок 3 функции\SEMINAR_HOME_LESSON_3\home_lesson_4\obj\Debug\net6.0\home_lesson_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\!_РАЗРАБОТЧИК\3_Знакомство с языками программирования\урок 3 функции\SEMINAR_HOME_LESSON_3\home_lesson_4\obj\Debug\net6.0\home_lesson_4.AssemblyInfoInputs.cache
+C:\Users\user\Documents\!_РАЗРАБОТЧИК\3_Знакомство с языками программирования\урок 3 функции\SEMINAR_HOME_LESSON_3\home_lesson_4\obj\Debug\net6.0\home_lesson_4.AssemblyInfo.cs
+C:\Users\user\Documents\!_РАЗРАБОТЧИК\3_Знакомство с языками программирования\урок 3 функции\SEMINAR_HOME_LESSON_3\home_lesson_4\obj\Debug\net6.0\home_lesson_4.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\!_РАЗРАБОТЧИК\3_Знакомство с языками программирования\урок 3 функции\SEMINAR_HOME_LESSON_3\home_lesson_4\obj\Debug\net6.0\home_lesson_4.dll
+C:\Users\user\Documents\!_РАЗРАБОТЧИК\3_Знакомство с языками программирования\урок 3 функции\SEMINAR_HOME_LESSON_3\home_lesson_4\obj\Debug\net6.0\refint\home_lesson_4.dll
+C:\Users\user\Documents\!_РАЗРАБОТЧИК\3_Знакомство с языками программирования\урок 3 функции\SEMINAR_HOME_LESSON_3\home_lesson_4\obj\Debug\net6.0\home_lesson_4.pdb
+C:\Users\user\Documents\!_РАЗРАБОТЧИК\3_Знакомство с языками программирования\урок 3 функции\SEMINAR_HOME_LESSON_3\home_lesson_4\obj\Debug\net6.0\home_lesson_4.genruntimeconfig.cache
+C:\Users\user\Documents\!_РАЗРАБОТЧИК\3_Знакомство с языками программирования\урок 3 функции\SEMINAR_HOME_LESSON_3\home_lesson_4\obj\Debug\net6.0\ref\home_lesson_4.dll
